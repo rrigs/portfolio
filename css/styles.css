@@ -198,7 +198,7 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none;
+  border-style: solid;
 }
 
 svg {
@@ -10153,6 +10153,7 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
@@ -10191,10 +10192,15 @@ h3 {
   font-size: 1.5rem;
 }
 
+.portfolio-item-title {
+  color: #1a252f;
+}
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
