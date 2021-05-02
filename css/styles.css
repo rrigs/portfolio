@@ -10194,6 +10194,8 @@ h3 {
 
 .portfolio-item-title {
   color: #1a252f;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-modal .portfolio-modal-title {
