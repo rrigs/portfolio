@@ -79,3 +79,13 @@
 // function send() {
 //         window.open('mailto:RachaelARigby@gmail.com');
 //     }
+
+$('[data-next=modal], [data-prev=modal]').click(function() {
+var isNext = $(this).is('[data-next=modal]');
+var modal = $(this).closest('.modal');
+var id = modal.attr('id').slice(0, -1);
+var index = parseInt( modal.attr('id').slice(-1) );
+(isNext ? index++ : index--);
+var modal2 = $('#' + id + index);
+if ( modal2.length > 0 ) modal.removeClass('fade').modal('hide').addClass('fade'); modal2.modal('show');
+});
