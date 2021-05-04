@@ -75,3 +75,7 @@
     });
 
 })(jQuery); // End of use strict
+
+// function send() {
+//         window.open('mailto:RachaelARigby@gmail.com');
+//     }
