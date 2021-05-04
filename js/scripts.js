@@ -76,9 +76,9 @@
 
 })(jQuery); // End of use strict
 
-// function send() {
-//         window.open('mailto:RachaelARigby@gmail.com');
-//     }
+function send() {
+        window.open('mailto:RachaelARigby@gmail.com');
+    }
 
 $('[data-next=modal], [data-prev=modal]').click(function() {
 var isNext = $(this).is('[data-next=modal]');
